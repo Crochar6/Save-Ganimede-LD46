@@ -1,0 +1,1 @@
+instance_create_layer(room_width + irandom_range(16, 200), irandom_range(-32,40),"Instances",oNitro);

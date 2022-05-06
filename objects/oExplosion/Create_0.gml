@@ -1,0 +1,11 @@
+spd = random_range(0,2);
+angle = random_range(0,360);
+vsp = lengthdir_y(spd,angle)-0.5;
+hsp = oPlayer.spd + lengthdir_x(spd,angle) + 1.7;
+fric = 0.036;
+grv = 0.045;
+c = 3;
+image_alpha = random_range(0.95,0.3);
+image_speed = random_range(0.8,1.6);
+x+= random_range(-c,c);
+y+= random_range(-c+3,c);

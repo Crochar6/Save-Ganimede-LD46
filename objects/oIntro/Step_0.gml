@@ -1,0 +1,1 @@
+if (room != rInit1) instance_destroy();
